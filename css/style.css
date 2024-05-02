@@ -102,10 +102,11 @@ main > section:nth-of-type(even) {
 }
 /* wave background  */
 .wave {
-  position: relative;
+ /*  position: relative; */
+  background: url(../img/wave.png);
   height: 100px;
 }
-.wave:before {
+/* .wave:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -114,7 +115,7 @@ main > section:nth-of-type(even) {
   height: 100%;
   background: url(../img/wave.png);
   background-repeat: no-repeat;
-}
+} */
 .wave:nth-of-type(even) {
   transform: rotate(180deg);
 }
