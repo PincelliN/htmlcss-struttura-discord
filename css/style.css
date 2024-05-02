@@ -9,7 +9,7 @@ section {
 /* header css */
 /* prima sezione header */
 header {
-  background-color: aqua;
+  background-color: rgb(14, 143, 143);
   font-size: larger;
 }
 .login {
@@ -35,7 +35,7 @@ header {
   color: black;
   background-color: white;
   padding: 5px;
-  border-radius: 35%;
+  border-radius: 25px;
   border: none;
 }
 /*  seconda section header */
@@ -52,7 +52,7 @@ header {
 .dowload > button {
   color: black;
   background-color: white;
-  border-radius: 35%;
+  border-radius: 25px;
   border: none;
   padding: 10px;
 }
@@ -94,9 +94,9 @@ main > section:nth-of-type(even) {
   margin-bottom: 20px;
 }
 .end-main button {
-  color: black;
-  background-color: white;
-  border-radius: 35%;
+  color: white;
+  background-color: rgb(142, 161, 225);
+  border-radius: 25px;
   border: none;
   padding: 10px;
 }
@@ -163,7 +163,7 @@ footer li {
 }
 .end button {
   color: white;
-  border-radius: 35%;
+  border-radius: 25px;
   padding: 5px;
   background-color: rgb(142, 161, 225);
 }
