@@ -3,31 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-  margin: 0 30px;
-}
 section {
   padding: 15px 30px;
 }
 /* header css */
-header > section {
-  background-color: violet;
-}
+/* prima sezione header */
 .login {
   background-color: aqua;
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  color: white;
+  font-size: larger;
 }
 .login > div {
-  width: 25%;
-  /* debug */
-  background-color: yellow;
-  height: 25px;
-  border: 1px solid black;
+  width: calc(100% / 4);
 }
-#info {
-  width: 50%;
+.login > .info {
+  width: calc((100% / 4) * 2);
+}
+.info > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header button {
+  float: right;
+  color: black;
+  border-radius: 35%;
+  border: none;
+  padding: 5px;
+  background-color: white;
+}
+header > section {
+  background-color: violet;
 }
 .dowload {
   width: 50%;
