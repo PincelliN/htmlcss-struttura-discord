@@ -74,6 +74,14 @@ main > section:nth-of-type(even) {
 .info-page > .language {
   width: calc((100% / 6) * 2);
 }
+/* footer list */
+footer ul{
+    list-style: none;
+    margin: 5% 25% ;
+}
+footer li{
+    margin: 10% auto;
+}
 /* css footer end */
 footer > section {
   background-color: blue;
