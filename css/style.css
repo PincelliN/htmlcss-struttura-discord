@@ -64,6 +64,9 @@ header {
 main > .main-box {
   display: flex;
 }
+main > section:nth-of-type(even) {
+  background-color: grey;
+}
 .main-box > div {
   width: calc(100% / 3);
   background-color: aqua;
@@ -77,15 +80,29 @@ main > .main-box {
 .main-box:nth-child(2) {
   flex-direction: row-reverse;
 }
+/*  end section main */
 .end-main > div {
-  height: 150px;
-  background-color: violet;
+  text-align: center;
 }
-main > section:nth-of-type(even) {
-  background-color: grey;
+.end-main p,
+.end-main img {
+  margin: 20px 20%;
+  font-size: medium;
 }
-/* css footer */
-/* css info-page general */
+.end-main h3,
+.end-main button {
+  margin-bottom: 20px;
+}
+.end-main button {
+  color: black;
+  background-color: white;
+  border-radius: 35%;
+  border: none;
+  padding: 10px;
+}
+
+/* css footer 
+ css info-page general */
 .info-page {
   display: flex;
 }
