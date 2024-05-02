@@ -61,41 +61,68 @@ main > section:nth-of-type(even) {
   background-color: grey;
 }
 /* css footer */
-
+/* css info-page general */
 .info-page {
   display: flex;
-}
-.info-page > div {
-  border: 1px solid black;
-  background-color: chartreuse;
-  width: calc(100% / 6);
-  height: 300px;
 }
 .info-page > .language {
   width: calc((100% / 6) * 2);
 }
+.info-page > div {
+  width: calc(100% / 6);
+}
+footer {
+  background-color: rgb(35, 39, 42);
+}
+/* css language */
+.language {
+  padding: 1% 10%;
+  line-height: 35px;
+}
+.language > h3 {
+  font-size: xx-large;
+  color: rgb(53, 82, 179);
+}
+.language > select {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+}
+.language option {
+  background-color: rgb(35, 39, 42);
+}
+.language > i {
+  color: white;
+  margin-right: 5px;
+  font-size: larger;
+}
 /* footer list */
-footer ul{
-    list-style: none;
-    margin: 5% 25% ;
+footer ul {
+  list-style: none;
+  margin: 5% 25%;
 }
-footer li{
-    margin: 10% auto;
+li > strong {
+  color: rgb(53, 82, 179);
+  font-size: large;
 }
+footer li {
+  margin: 10% auto;
+  color: white;
+}
+
 /* css footer end */
-footer > section {
-  background-color: blue;
-}
+
 .end {
-  background-color: yellow;
-  height: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  padding: 10px;
 }
-.end > div {
-  border: 1px solid black;
-}
-footer > section:last-child {
-  padding-bottom: 0;
+.end button {
+  color: white;
+  border-radius: 35%;
+  padding: 5px;
+  background-color: rgb(142, 161, 225);
 }
