@@ -1,78 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    background-color: grey;
-    margin: 0 30px;
-    padding: 30px;
+.container {
+  margin: 0 30px;
+}
+section {
+  padding: 15px 30px;
 }
 /* header css */
-.login{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+header > section {
+  background-color: violet;
 }
-.login>div{
-    width: 25%;
-    /* debug */
-    background-color: yellow;
-    height: 25px;
-    border: 1px solid black;
+.login {
+  background-color: aqua;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
-#info{
-    width: 50%;
+.login > div {
+  width: 25%;
+  /* debug */
+  background-color: yellow;
+  height: 25px;
+  border: 1px solid black;
 }
-.dowload{
-    width: 50%;
-    margin: 0 25%;
-    /* debug */
-     background-color: red;
-     height: 300px;
+#info {
+  width: 50%;
+}
+.dowload {
+  width: 50%;
+  margin: 0 25%;
+  /* debug */
+  background-color: red;
+  height: 300px;
 }
 /* css main */
-main>.main-box{
-    display: flex;
+main > .main-box {
+  display: flex;
 }
-.main-box>div{
-    width: calc(100% /3);
-    background-color: aqua;
-    border: 1px solid black;
+.main-box > div {
+  width: calc(100% / 3);
+  background-color: aqua;
+  border: 1px solid black;
 }
-.main-box>.descrition{
-    width: calc((100%/3)*2);
-    height: 150px ;
+.main-box > .descrition {
+  background-color: green;
+  width: calc((100% / 3) * 2);
+  height: 150px;
 }
-.main-box:nth-child(2){
-    flex-direction: row-reverse;
+.main-box:nth-child(2) {
+  flex-direction: row-reverse;
 }
-.end-main>div{
-    height: 150px;
-    background-color: violet;
+.end-main > div {
+  height: 150px;
+  background-color: violet;
+}
+main > section:nth-of-type(even) {
+  background-color: grey;
 }
 /* css footer */
-.info-page{
-   
-    display: flex;
+
+.info-page {
+  display: flex;
 }
-.info-page>div{ 
-    border: 1px solid black;
-    background-color: chartreuse;
-    width: calc(100% /6);
-    height: 300px;
+.info-page > div {
+  border: 1px solid black;
+  background-color: chartreuse;
+  width: calc(100% / 6);
+  height: 300px;
 }
-.info-page>.language{
-    width: calc((100% / 6)*2);
+.info-page > .language {
+  width: calc((100% / 6) * 2);
 }
 /* css footer end */
-.end{
-    background-color: yellow;
-    height: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer > section {
+  background-color: blue;
 }
-.end>div{
-    border: 1px solid black;
+.end {
+  background-color: yellow;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.end > div {
+  border: 1px solid black;
+}
+footer > section:last-child {
+  padding-bottom: 0;
 }
