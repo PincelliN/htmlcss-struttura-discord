@@ -8,13 +8,15 @@ section {
 }
 /* header css */
 /* prima sezione header */
-.login {
+header {
   background-color: aqua;
+  font-size: larger;
+}
+.login {
+  color: white;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  color: white;
-  font-size: larger;
 }
 .login > div {
   width: calc(100% / 4);
@@ -28,23 +30,35 @@ section {
   flex-direction: row;
   justify-content: space-between;
 }
-header button {
+.login button {
   float: right;
   color: black;
+  background-color: white;
+  padding: 5px;
   border-radius: 35%;
   border: none;
-  padding: 5px;
-  background-color: white;
 }
-header > section {
-  background-color: violet;
-}
+/*  seconda section header */
+
 .dowload {
-  width: 50%;
   margin: 0 25%;
-  /* debug */
-  background-color: red;
-  height: 300px;
+  text-align: center;
+  color: white;
+}
+.dowload > p,
+.dowload > button {
+  margin-top: 30px;
+}
+.dowload > button {
+  color: black;
+  background-color: white;
+  border-radius: 35%;
+  border: none;
+  padding: 10px;
+}
+.dowload > button:nth-of-type(2) {
+  color: white;
+  background-color: rgb(35, 39, 42);
 }
 /* css main */
 main > .main-box {
