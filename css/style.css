@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 .container{
+    background-color: grey;
     margin: 0 30px;
+    padding: 30px;
 }
 /* header css */
 .login{
@@ -45,6 +47,32 @@ main>.main-box{
 .main-box:nth-child(2){
     flex-direction: row-reverse;
 }
-
-
-
+.end-main>div{
+    height: 150px;
+    background-color: violet;
+}
+/* css footer */
+.info-page{
+   
+    display: flex;
+}
+.info-page>div{ 
+    border: 1px solid black;
+    background-color: chartreuse;
+    width: calc(100% /6);
+    height: 300px;
+}
+.info-page>.language{
+    width: calc((100% / 6)*2);
+}
+/* css footer end */
+.end{
+    background-color: yellow;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end>div{
+    border: 1px solid black;
+}
